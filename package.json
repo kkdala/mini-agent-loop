@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"demo": "tsc --target es2020 --module commonjs --lib \"es2020,dom\" minimal-agent-loop-core.ts openai-compatible-call-llm.ts minimal-agent-loop-core-demo.ts --outDir %TEMP%\\pi-agent-demo && node %TEMP%\\pi-agent-demo\\minimal-agent-loop-core-demo.js"
+	}
+}
